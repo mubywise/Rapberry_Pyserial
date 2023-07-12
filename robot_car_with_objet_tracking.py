@@ -59,5 +59,5 @@ while True:
     cv2.imshow("My Face Detection Project", faces)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-cap.release()
+videocapture.release()
 cv2.destroyAllWindows
